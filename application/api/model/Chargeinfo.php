@@ -17,6 +17,10 @@ class Chargeinfo extends BaseModel
         return $res;
     }
 
+    /**
+     * 参加
+     */
+
     public static function GetByList($data)
     {
         if ($data['roles'][0] == 'admin') {
